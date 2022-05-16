@@ -27,4 +27,5 @@ server.listen(80, () => {
   console.log('http server running at http://127.0.01')
 })
 
-//http://127.0.0.1/11-clock-Ex-files/index.html
+//http://127.0.0.1/
+//http://127.0.0.1/index.html
