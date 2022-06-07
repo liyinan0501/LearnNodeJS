@@ -7,7 +7,7 @@ server.on('request', (req, res) => {
   const str = `Your request url is ${url}, and request method is ${method}`
   console.log(str)
 
-  res.end(str)
+  res.end(str) // 发送到客户端
 })
 
 server.listen(80, () => {
