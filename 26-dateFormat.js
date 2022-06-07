@@ -1,4 +1,4 @@
-function dateFormat(dtStr) {
+module.exports.dateFormat = function (dtStr) {
   const dt = new Date(dtStr)
 
   const y = dt.getFullYear()
@@ -16,6 +16,6 @@ function padZero(n) {
   return n > 9 ? n : '0' + n
 }
 
-module.exports = {
-  dateFormat,
-}
+// module.exports = {
+//   dateFormat,
+// }
